@@ -4,15 +4,22 @@
  */
 // 开发环境
 const dev = {
-  common: "https://common-api.pickmall.cn",
-  buyer: "https://buyer-api.pickmall.cn",
-
+  // common: "https://common-api.pickmall.cn",
+  // buyer: "https://buyer-api.pickmall.cn", 
+  // buyer: "http://buyer-api.yinerjun.com",
+  // common: "http://common-api.yinerjun.com",
+	 common: "http://112.74.56.49:8890",
+	 buyer: "http://112.74.56.49:8888",
 
 };
 // 生产环境
 const prod = {
-  common: "https://common-api.pickmall.cn",
-  buyer: "https://buyer-api.pickmall.cn",
+  // common: "https://common-api.pickmall.cn",
+  // buyer: "https://buyer-api.pickmall.cn",
+  // buyer: "http://buyer-api.yinerjun.com",
+  // common: "http://common-api.yinerjun.com",
+  common: "http://112.74.56.49:8890",
+  buyer: "http://112.74.56.49:8888",
 };
 
 //默认生产环境
